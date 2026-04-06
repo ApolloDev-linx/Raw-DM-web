@@ -1,3 +1,4 @@
+import Image from "next/image";
 const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Gallery", href: "#gallery" },
@@ -8,11 +9,16 @@ const navLinks = [
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-md">
-      <div className="section-shell flex h-20 items-center justify-between">
-        <a href="#top" className="text-lg font-semibold tracking-[0.25em] text-white uppercase">
-          <span className="gold-text">Elite</span> Detail
-        </a>
-
+      <div className="section-shell flex h-25 items-center justify-between">
+       <a href="#top" className="flex items-center">
+  <Image
+    src="/logo.jpeg"
+    alt="Logo"
+    width={100}
+    height={80}
+    className="object-contain"
+/>
+  </a> 
         <nav className="hidden gap-8 md:flex">
           {navLinks.map((link) => (
             <a
