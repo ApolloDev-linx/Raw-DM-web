@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="section-shell grid items-center gap-12 lg:grid-cols-2">
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-[var(--gold)]">
-            Luxury Auto Detailing
+            Raw D&M Detailing
           </p>
           <h1 className="max-w-2xl text-5xl font-semibold leading-tight text-white sm:text-6xl">
-            Bring Back The <span className="gold-text">Showroom Shine</span>
+            We don't just clean it  <span className="gold-text">We revive it.</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-7 text-white/70 sm:text-lg">
             Premium interior and exterior detailing designed for drivers who want their vehicle to

@@ -1,16 +1,16 @@
 export const services = [
   {
-    title: "Exterior Detail",
+    title: "Exterior Detail / $50-100",
     description:
       "Deep wash, wheel cleaning, paint-safe hand drying, tire shine, and gloss enhancement.",
   },
   {
-    title: "Interior Detail",
+    title: "Interior Detail / $80-140",
     description:
       "Vacuum, wipe-down, crack and crevice cleaning, window treatment, and premium finish.",
   },
   {
-    title: "Full Detail",
+    title: "Full Detail / $110-210",
     description:
       "Complete interior and exterior refresh for clients who want the full transformation.",
   },
@@ -19,7 +19,7 @@ export const services = [
 export const processSteps = [
   "Book your service",
   "Drop-off or mobile scheduling",
-  "Full premium detail",
+  "Full raw detail",
   "Final inspection and shine reveal",
 ];
 

@@ -14,13 +14,84 @@ export default function Contact() {
               Ready to get your vehicle cleaned up? Reach out for pricing, availability, and service details.
             </p>
 
-            <div className="mt-8 space-y-3 text-white/80">
-              <p><span className="gold-text">Phone:</span> (256) 000-0000</p>
-              <p><span className="gold-text">Instagram:</span> @eliteautodetail</p>
-              <p><span className="gold-text">Location:</span> Your City, Alabama</p>
-            </div>
-          </div>
+           <div className="mt-8 space-y-4 text-white/80">
 
+  {/*  */}
+  <div>
+    <p className="gold-text text-sm uppercase tracking-[0.2em]">Dom</p>
+    <div className="flex gap-4 mt-1">
+      <a
+        href="tel:2563249616"
+className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[var(--gold)] hover:text-black transition"
+      >
+        Call
+      </a>
+      <a
+        href="sms:2563249616"
+className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[var(--gold)] hover:text-black transition"
+      >
+        Text
+      </a>
+    </div>
+  </div>
+
+  {/* */}
+  <div>
+    <p className="gold-text text-sm uppercase tracking-[0.2em]">Mario</p>
+    <div className="flex gap-4 mt-1">
+      <a
+        href="tel:2564609743"
+className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[var(--gold)] hover:text-black transition"
+      >
+        Call
+      </a>
+      <a
+        href="sms:2564609743"
+className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[var(--gold)] hover:text-black transition"
+      >
+        Text
+      </a>
+    </div>
+  </div>
+
+  {/* SOCIAL */}
+  <div className="pt-4">
+    <p className="gold-text text-sm uppercase tracking-[0.2em]">
+      Reach Out On Social
+    </p>
+
+    <div className="flex flex-wrap gap-4 mt-2">
+      <a
+        href="https://www.tiktok.com/@rawdm02?_r=1&_t=ZP-95IrbksE1Ta"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[var(--gold)] transition"
+      >
+        TikTok
+      </a>
+
+      <a
+        href="https://www.facebook.com/share/1BPHJDMoci/?mibextid=wwXIfr"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[var(--gold)] transition"
+      >
+        Facebook
+      </a>
+
+      <a
+        href="https://www.instagram.com/rawdmdetailing?igsh=NGNsMnRhdzB4bHZs&utm_source=qr"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-[var(--gold)] transition"
+      >
+        Instagram
+      </a>
+    </div>
+  </div>
+
+</div>
+</div>
           <form className="glass-card rounded-[1.75rem] p-6">
             <div className="grid gap-4">
               <input
@@ -47,7 +118,7 @@ export default function Contact() {
                 type="submit"
                 className="rounded-full bg-[var(--gold)] px-6 py-3 text-sm font-bold uppercase tracking-[0.2em] text-black transition hover:opacity-90"
               >
-                Send Request
+                Send Request (Coming soon)
               </button>
             </div>
           </form>

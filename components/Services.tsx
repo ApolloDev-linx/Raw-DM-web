@@ -9,13 +9,18 @@ export default function Services() {
             Services
           </p>
           <h2 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-            Premium Care For Every Vehicle
+            Raw Care For Every Vehicle
           </h2>
           <p className="mt-4 text-white/70 leading-7">
             Built for drivers who want clean results, polished presentation, and a detail that feels
-            worth paying for.
+            raw
           </p>
-        </div>
+<a
+  href="#contact"
+  className="inline-block mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--gold)] border border-[var(--gold)] px-4 py-2 rounded-full transition hover:bg-[var(--gold)] hover:text-black"
+>
+  Call for Xtra Services →
+</a>        </div>
 
         <div className="grid gap-6 md:grid-cols-3">
           {services.map((service) => (
