@@ -91,8 +91,16 @@ className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[
   </div>
 
 </div>
+</div> 
+
+
+<div className="mt-8 w-full">
+  <iframe
+    src="https://calendly.com/rawdmdetail?embed_type=Inline"
+    className="w-full h-[700px] rounded-lg border border-[var(--gold)]"
+  />
 </div>
-          <form className="glass-card rounded-[1.75rem] p-6">
+{/*<form className="glass-card rounded-[1.75rem] p-6">
             <div className="grid gap-4">
               <input
                 type="text"
@@ -121,7 +129,7 @@ className="text-xs border border-[var(--gold)] px-3 py-1 rounded-full hover:bg-[
                 Send Request (Coming soon)
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
