@@ -1,11 +1,11 @@
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import "./globals.css";
+import SparkleParticles from "@/components/SparkleParticles";
 
 export const metadata: Metadata = {
-  title: "RAW DM Detailing — Premium Auto Detailing",
-  description:
-    "Premium interior and exterior detailing designed for drivers who demand perfection. Serving the area with luxury results.",
+  title: "RAW DM Detailing",
+  description: "interior and exterior detailing with premium results.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body>
+        <SparkleParticles />
         {children}
         <Analytics />
       </body>

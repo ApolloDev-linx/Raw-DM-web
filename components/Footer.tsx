@@ -53,10 +53,15 @@ export default function Footer() {
 
         {/* Powered by Apollo Systems */}
         <div className="mt-8 pt-6 border-t border-white/[0.04] flex justify-center">
+	<a
+          href="https://www.apollosystems.tech/"
+          target="_blank"
+          rel="noopener noreferrer"
+	  >
           <p className="text-[0.65rem] uppercase tracking-[0.3em] text-white/20">
             Powered by{" "}
             <span className="text-white/35 font-semibold tracking-[0.2em]">Apollo Systems</span>
-          </p>
+          </p> </a>
         </div>
       </div>
     </footer>
